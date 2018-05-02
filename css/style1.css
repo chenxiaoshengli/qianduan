@@ -1,0 +1,32 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	color: #4E4C4F;
+}
+.main{
+	width: 600px;
+	margin: 0 auto;
+	border: 1px #666666 solid;
+	padding: 20px;
+}
+h1{
+	line-height: 80px;
+}
+dl,dt,dd{
+	list-style: none;
+}
+dt{
+	line-height: 50px;
+}
+dd{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+dd span{
+	font-weight: bold;
+}
+.space{
+	margin-bottom: 20px;
+}
