@@ -1,0 +1,144 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	list-style: none;
+}
+.firstline{
+	height: 50px;
+	width: 100%;
+	position: relative;
+	background-color: #333333;
+	color: #ffffff;
+}
+.firstline .logo{
+	position: absolute;
+	top: 10px;
+	left: 100px;
+}
+.firstline .list li{
+	float: left;
+	margin-left: 12px;
+}
+.firstline a{
+	color: #ffffff;
+	font-size: 13px;
+}
+.firstline .list{
+	position: absolute;
+	top: 3px;
+	right: 100px;
+}
+.secondline{
+	height: 250px;
+	width: 100%;
+	background-color: #66BB33;
+	position: relative;
+}
+.secondline ul{
+	position: absolute;
+	bottom: 8px;
+	right: 150px;
+
+}
+.secondline li{
+	display: inline-block;
+	width: 20px;
+	height: 25px;
+	border:1px #000000 solid;
+	background-color: #B2DD99;
+	margin-right: 13px;
+	text-align: center;
+	line-height: 25px;
+	vertical-align: bottom;
+}
+.secondline .special{
+	height: 30px;
+	background-color: #DEF2D3;
+	text-align: 25px;
+}
+.thirdline{
+	height: 40px;
+	position: relative;
+	border-bottom: 1px #cccccc solid;
+}
+.thirdline ul{
+	position: absolute;
+	bottom: 0;
+	left: 120px;
+}
+.thirdline li{
+	margin-bottom: -1px;
+	line-height: 29px;
+	text-align: center;
+	border:1px #cccccc solid;
+	border-radius: 10px 10px 0 0;
+	float: left;
+	background-color: #EEEEEE;
+	width: 100px;
+}
+.thirdline .special2{
+	border-bottom: 1px #ffffff solid;
+	background-color: #ffffff;
+}
+.forthline{
+	width: 1000px;
+	margin:15px auto;
+}
+.forthline .listone{
+	display: flex;
+	justify-content: space-between;
+}
+.forthline .listone li{
+	width: 320px;
+	height: 200px;
+	border:3px #cccccc solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.forthline .listtwo{
+	margin-top:15px; 
+	display: flex;
+	justify-content: space-between;
+}
+.forthline .listtwo li{
+	width: 230px;
+	height: 200px;
+	border:3px #cccccc solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.forthline .listthree{
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+.forthline .listthree li{
+	height: 200px;
+	border:3px #cccccc solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.forthline .listthree li:nth-of-type(1){
+	width: 300px;
+}
+.forthline .listthree li:nth-of-type(2){
+	width: 310px;
+}
+.forthline .listthree li:nth-of-type(3){
+	width: 350px;
+}
+.footer{
+	height: 100px;
+	width: 100%;
+	background-color: #666666;
+	text-align: center;
+}
+.footer span{
+	line-height: 25px;
+	font-size: 13px;
+}
